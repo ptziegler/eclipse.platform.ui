@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2005, 2020 IBM Corporation and others.
+ * Copyright (c) 2005, 2022 IBM Corporation and others.
  *
  * This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License 2.0
@@ -20,6 +20,7 @@
  * Patrik Suzzi <psuzzi@itemis.com> - Bug 491785, 368977, 501811, 511198, 529885
  * Kaloyan Raev <kaloyan.r@zend.com> - Bug 322002
  * Lucas Bullen (Red Hat Inc.) - Bug 500051, 530654
+ * Patrick Ziegler - Bug 568068 - Preference initialization in e4 apps 
  *******************************************************************************/
 package org.eclipse.ui.internal;
 
@@ -824,7 +825,6 @@ public class WorkbenchMessages extends NLS {
 	public static String FilteredTree_FilteredDialogTitle;
 	public static String FilteredTree_AccessibleListenerFiltered;
 	public static String Workbench_startingPlugins;
-	public static String ScopedPreferenceStore_DefaultAddedError;
 
 	public static String WorkbenchEncoding_invalidCharset;
 

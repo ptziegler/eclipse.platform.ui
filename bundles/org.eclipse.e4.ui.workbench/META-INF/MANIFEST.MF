@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: org.eclipse.e4.ui.workbench;singleton:=true
-Bundle-Version: 1.14.100.qualifier
+Bundle-Version: 1.15.000.qualifier
 Bundle-Name: %pluginName
 Bundle-Vendor: %providerName
 Bundle-Localization: plugin
@@ -21,7 +21,8 @@ Require-Bundle: org.eclipse.e4.ui.model.workbench;bundle-version="1.2.0",
  org.eclipse.emf.ecore.xmi;bundle-version="2.7.0",
  org.eclipse.e4.core.di.extensions,
  org.eclipse.core.runtime;bundle-version="3.3.0",
- org.eclipse.jdt.annotation;bundle-version="2.2.200";resolution:=optional
+ org.eclipse.jdt.annotation;bundle-version="2.2.200";resolution:=optional,
+ org.eclipse.jface;bundle-version="3.29.0"
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-11
 Export-Package: org.eclipse.e4.ui.internal.workbench;
@@ -36,7 +37,8 @@ Export-Package: org.eclipse.e4.ui.internal.workbench;
  org.eclipse.e4.ui.internal.workbench.handlers;x-internal:=true,
  org.eclipse.e4.ui.workbench,
  org.eclipse.e4.ui.workbench.lifecycle,
- org.eclipse.e4.ui.workbench.modeling
+ org.eclipse.e4.ui.workbench.modeling,
+ org.eclipse.e4.ui.workbench.preferences
 Bundle-Activator: org.eclipse.e4.ui.internal.workbench.Activator
 Service-Component: OSGI-INF/org.eclipse.e4.ui.internal.LocaleChangeServiceContextFunction.xml,
  OSGI-INF/org.eclipse.e4.ui.internal.workbench.ExtensionTrackeContextFunction.xml,
